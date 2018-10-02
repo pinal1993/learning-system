@@ -119,9 +119,9 @@ public class Application {
 
             br.close();
             is.close();
-        } catch (IOException e){
+        } catch (Exception e){
             //Critical error, terminate application
-            System.err.println("Error: Target File Cannot Be Read");
+            System.err.println(String.format("Error: Target File Cannot Be Read. Error: %s", e.getMessage());
             System.exit(0);
         }
 
