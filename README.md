@@ -16,3 +16,8 @@ Functions
 5. Print Courses
 6. Number Input
 6. Save Favorites
+
+References:
+https://docs.oracle.com/en/java
+https://www.tutorialspoint.com/java
+https://www.geeksforgeeks.org/java
